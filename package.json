@@ -1,0 +1,29 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "EasyAR STS (Security Token Service) provide finer grained and temporary access controlling service",
+  "main": "get-token.js",
+  "scripts": {
+    "test": "node get-token.js YOUR-API-KEY YOUR-API-SECRET"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easyar-uac/uac-javascript-sdk.git"
+  },
+  "keywords": [
+    "uac",
+    "client",
+    "nodejs"
+  ],
+  "author": "easyar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/easyar-uac/uac-javascript-sdk/issues"
+  },
+  "dependencies": {
+    "yargs":"",
+    "superagent":"",
+    "q":""
+  },
+  "homepage": "https://github.com/easyar-uac/uac-javascript-sdk#README.md"
+}
